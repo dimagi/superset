@@ -213,6 +213,10 @@ const ChangeDatasourceModal: FunctionComponent<ChangeDatasourceModalProps> = ({
       accessor: 'table_name',
     },
     {
+      Header: t('Name in CommCare HQ'),
+      accessor: 'description',
+    },
+    {
       Header: t('Type'),
       accessor: 'kind',
       disableSortBy: true,
