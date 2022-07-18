@@ -352,6 +352,11 @@ const DatasetList: FunctionComponent<DatasetListProps> = ({
         accessor: 'table_name',
       },
       {
+        Header: t('Name in CommCare HQ'),
+        accessor: 'description',
+        size: 'lg',
+      },
+      {
         Cell: ({
           row: {
             original: { kind },
