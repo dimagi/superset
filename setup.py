@@ -54,8 +54,8 @@ with open(VERSION_INFO_FILE, "w") as version_file:
 
 
 setup(
-    name="apache-superset",
-    description=("A modern, enterprise-ready business intelligence web application"),
+    name="dimagi-superset",
+    description=("A 'Dimagi' fork of modern, enterprise-ready business intelligence web application (apache-superset)"),
     long_description=long_description,
     long_description_content_type="text/markdown",
     version=version_string,
