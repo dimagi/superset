@@ -212,7 +212,7 @@ const ChangeDatasourceModal: FunctionComponent<ChangeDatasourceModalProps> = ({
       accessor: 'table_name',
     },
     {
-      Header: t('Name in CommCare HQ'),
+      Header: t('External Name'),
       accessor: 'description',
     },
     {
