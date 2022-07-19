@@ -283,6 +283,11 @@ const DatasetList: FunctionComponent<DatasetListProps> = ({
         accessor: 'table_name',
       },
       {
+        Header: t('External Name'),
+        accessor: 'description',
+        size: 'lg',
+      },
+      {
         Cell: ({
           row: {
             original: { kind },

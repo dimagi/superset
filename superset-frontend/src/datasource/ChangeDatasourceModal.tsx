@@ -212,6 +212,10 @@ const ChangeDatasourceModal: FunctionComponent<ChangeDatasourceModalProps> = ({
       accessor: 'table_name',
     },
     {
+      Header: t('External Name'),
+      accessor: 'description',
+    },
+    {
       Header: t('Type'),
       accessor: 'kind',
       disableSortBy: true,
