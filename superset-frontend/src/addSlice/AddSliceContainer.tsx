@@ -239,7 +239,7 @@ export default class AddSliceContainer extends React.PureComponent<
           </TooltipContent>
         }
       >
-        <StyledLabel>{item.table_name}</StyledLabel>
+        <StyledLabel>{item.description}</StyledLabel>
       </Tooltip>
     );
   }

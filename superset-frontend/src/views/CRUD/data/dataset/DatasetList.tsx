@@ -270,6 +270,11 @@ const DatasetList: FunctionComponent<DatasetListProps> = ({
         id: 'id',
       },
       {
+        Header: t('Description'),
+        accessor: 'description',
+        size: 'md',
+      },
+      {
         Cell: ({
           row: {
             original: {
