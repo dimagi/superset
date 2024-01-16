@@ -872,7 +872,7 @@ msgid "A timeout occurred while executing the query."
 msgstr ""
 
 #: superset/reports/commands/exceptions.py:238
-msgid "A timeout occurred while generating a CSV."
+msgid "A timeout occurred while generating a csv."
 msgstr ""
 
 #: superset/reports/commands/exceptions.py:243
@@ -1554,7 +1554,7 @@ msgid "Allow CREATE VIEW AS option in SQL Lab"
 msgstr ""
 
 #: superset/views/database/mixins.py:198
-msgid "Allow CSV Upload"
+msgid "Allow Csv Upload"
 msgstr ""
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:164
@@ -4847,7 +4847,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Database \"%(database_name)s\" schema \"%(schema_name)s\" is not allowed "
-"for CSV uploads. Please contact your Superset Admin."
+"for csv uploads. Please contact your Superset Admin."
 msgstr ""
 
 #: superset/views/database/views.py:321
@@ -7685,7 +7685,7 @@ msgid ""
 msgstr ""
 
 #: superset/views/database/mixins.py:177
-msgid "If selected, please set the schemas allowed for CSV upload in Extra."
+msgid "If selected, please set the schemas allowed for csv upload in Extra."
 msgstr ""
 
 #: superset/views/database/forms.py:328 superset/views/database/forms.py:459
@@ -11698,7 +11698,7 @@ msgid "Report Schedule delete failed."
 msgstr ""
 
 #: superset/reports/commands/exceptions.py:159
-msgid "Report Schedule execution failed when generating a CSV."
+msgid "Report Schedule execution failed when generating a csv."
 msgstr ""
 
 #: superset/reports/commands/exceptions.py:163
@@ -14723,15 +14723,15 @@ msgstr ""
 #, python-format
 msgid ""
 "The number of results displayed is limited to %(rows)d by the "
-"configuration DISPLAY_MAX_ROW. Please add additional limits/filters or "
-"download to CSV to see more rows up to the %(limit)d limit."
+"configuration DISPLAY_MAX_ROWS. Please add additional limits/filters or "
+"download to csv to see more rows up to the %(limit)d limit."
 msgstr ""
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:307
 #, python-format
 msgid ""
 "The number of results displayed is limited to %(rows)d. Please add "
-"additional limits/filters, download to CSV, or contact an admin to see "
+"additional limits/filters, download to csv, or contact an admin to see "
 "more rows up to the %(limit)d limit."
 msgstr ""
 
@@ -17907,7 +17907,7 @@ msgid "You don't have the rights to create a dashboard"
 msgstr ""
 
 #: superset/views/core.py:649
-msgid "You don't have the rights to download as CSV"
+msgid "You don't have the rights to download as csv"
 msgstr ""
 
 #: superset/views/core.py:425
@@ -18763,6 +18763,7 @@ msgid "median"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/PivotTableChart.tsx:62
+#: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:28
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:136
 msgid "metric"
 msgstr ""
@@ -19210,3 +19211,20 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts:521
 msgid "zoom area"
 msgstr ""
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+msgid "10 seconds"
+msgstr ""
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+msgid "6 hours"
+msgstr ""
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+msgid "12 hours"
+msgstr ""
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+msgid "24 hours"
+msgstr ""
+

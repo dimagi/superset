@@ -10545,7 +10545,7 @@ msgstr "Issue 1006 - クエリで指定された1つ以上のパラメーター�
 
 #: superset/errors.py:133
 #, fuzzy
-msgid "One or more parameters specified in the query are malformatted."
+msgid "One or more parameters specified in the query are malformed."
 msgstr "Issue 1006 - クエリで指定された1つ以上のパラメーターが見つかりません。"
 
 #: superset/errors.py:107
@@ -15377,7 +15377,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The number of results displayed is limited to %(rows)d by the "
-"configuration DISPLAY_MAX_ROW. Please add additional limits/filters or "
+"configuration DISPLAY_MAX_ROWS. Please add additional limits/filters or "
 "download to csv to see more rows up to the %(limit)d limit."
 msgstr ""
 
@@ -19581,6 +19581,7 @@ msgid "median"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/PivotTableChart.tsx:62
+#: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:28
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:136
 #, fuzzy
 msgid "metric"
@@ -20065,3 +20066,24 @@ msgstr "年"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts:521
 msgid "zoom area"
 msgstr ""
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "10 seconds"
+msgstr "30秒"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "6 hours"
+msgstr "6時間"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "12 hours"
+msgstr "1時間"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "24 hours"
+msgstr "6時間"
+

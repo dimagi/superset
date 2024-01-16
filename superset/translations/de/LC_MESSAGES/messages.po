@@ -10787,7 +10787,8 @@ msgid "One or more parameters needed to configure a database are missing."
 msgstr "Ein oder mehrere in der Abfrage angegebene Parameter fehlen."
 
 #: superset/errors.py:133
-msgid "One or more parameters specified in the query are malformatted."
+#, fuzzy
+msgid "One or more parameters specified in the query are malformed."
 msgstr ""
 "Ein oder mehrere in der Abfrage angegebene Parameter haben das falsche "
 "Format."
@@ -14263,18 +14264,6 @@ msgstr "Zeigt eine Liste aller zu diesem Zeitpunkt verfügbaren Zeitreihen an."
 msgid "Shows or hides markers for the time series"
 msgstr "Ein- oder Ausblenden von Markern für die Zeitreihe"
 
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:31
-msgid ""
-"Shows the composition of a dataset by segmenting a given rectangle as "
-"smaller rectangles with areas proportional to their value or contribution"
-" to the whole. Those rectangles may also, in turn, be further segmented "
-"hierarchically."
-msgstr ""
-"Zeigt die Zusammensetzung eines Datensatzes an, indem ein bestimmtes "
-"Rechteck als kleinere Rechtecke mit Bereichen segmentiert wird, die "
-"proportional zu ihrem Wert oder Beitrag zum Ganzen sind. Diese Rechtecke "
-"können wiederum auch hierarchisch weiter segmentiert werden."
-
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/controlPanel.ts:64
 msgid "Significance Level"
 msgstr "Signifikanzniveau"
@@ -15713,10 +15702,10 @@ msgstr ""
 " zu verschieben."
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:301
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The number of results displayed is limited to %(rows)d by the "
-"configuration DISPLAY_MAX_ROW. Please add additional limits/filters or "
+"configuration DISPLAY_MAX_ROWS. Please add additional limits/filters or "
 "download to csv to see more rows up to the %(limit)d limit."
 msgstr ""
 "Die Anzahl der angezeigten Ergebnisse ist durch die Konfiguration "
@@ -18248,15 +18237,6 @@ msgstr ""
 "Beachten Sie, dass jede Zeitreihe unterschiedlich visualisiert werden "
 "kann (z. B. eine mit Balken und die andere mit einer Linie)."
 
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/index.js:28
-msgid ""
-"Visualizes 2 metrics as line plots using the same x-axis. This chart is "
-"useful for comparing metrics across the same time range."
-msgstr ""
-"Visualisiert 2 Metriken als Liniendiagramme mit derselben x-Achse. Dieses"
-" Diagramm ist nützlich, um Metriken über den gleichen Zeitraum zu "
-"vergleichen."
-
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/index.js:28
 msgid ""
 "Visualizes a metric across three dimensions of data in a single chart (X "
@@ -20273,6 +20253,7 @@ msgid "median"
 msgstr "Median"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/PivotTableChart.tsx:62
+#: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:28
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:136
 msgid "metric"
 msgstr "Metrik"
@@ -20730,3 +20711,24 @@ msgstr "Jahr"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts:521
 msgid "zoom area"
 msgstr "Zoombereich"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "10 seconds"
+msgstr "30 Sekunden"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "6 hours"
+msgstr "6 Stunden"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "12 hours"
+msgstr "1 Stunde"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "24 hours"
+msgstr "6 Stunden"
+

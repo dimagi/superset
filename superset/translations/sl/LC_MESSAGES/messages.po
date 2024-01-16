@@ -10819,7 +10819,8 @@ msgid "One or more parameters needed to configure a database are missing."
 msgstr "En ali več parametrov, potrebnih za nastavitev podatkovne baze, manjka."
 
 #: superset/errors.py:133
-msgid "One or more parameters specified in the query are malformatted."
+#, fuzzy
+msgid "One or more parameters specified in the query are malformed."
 msgstr "En ali več parametrov v SQL-poizvedbi ima napačno obliko."
 
 #: superset/errors.py:107
@@ -15731,10 +15732,10 @@ msgstr ""
 "način je mogoče UTC čas prestaviti na lokalni čas."
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:301
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The number of results displayed is limited to %(rows)d by the "
-"configuration DISPLAY_MAX_ROW. Please add additional limits/filters or "
+"configuration DISPLAY_MAX_ROWS. Please add additional limits/filters or "
 "download to csv to see more rows up to the %(limit)d limit."
 msgstr ""
 "Število prikazanih rezultatov je omejeno na %(rows)d na podlagi parametra"
@@ -20168,6 +20169,7 @@ msgid "median"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/PivotTableChart.tsx:62
+#: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:28
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:136
 #, fuzzy
 msgid "metric"
@@ -20657,3 +20659,24 @@ msgstr "leto"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts:521
 msgid "zoom area"
 msgstr ""
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "10 seconds"
+msgstr "30 sekund"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "6 hours"
+msgstr "6 ur"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "12 hours"
+msgstr "1 ura"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "24 hours"
+msgstr "6 ur"
+

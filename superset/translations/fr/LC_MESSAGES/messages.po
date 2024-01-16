@@ -1836,7 +1836,9 @@ msgstr ""
 #: superset-frontend/src/views/CRUD/hooks.ts:308
 #, fuzzy, python-format
 msgid "An error occurred while creating %ss: %s"
-msgstr "Une erreur s'est produite durant la récupération des jeux de données %ss: %s"
+msgstr ""
+"Une erreur s'est produite durant la récupération des jeux de données %ss:"
+" %s"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:1530
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:1552
@@ -1868,7 +1870,9 @@ msgstr ""
 #: superset-frontend/src/views/CRUD/hooks.ts:106
 #, fuzzy, python-format
 msgid "An error occurred while fetching %s info: %s"
-msgstr "Une erreur s'est produite durant la récupération des tableaux de bord %s : %s"
+msgstr ""
+"Une erreur s'est produite durant la récupération des tableaux de bord %s "
+": %s"
 
 #: superset-frontend/src/views/CRUD/hooks.ts:174
 #: superset-frontend/src/views/CRUD/hooks.ts:265
@@ -4919,7 +4923,9 @@ msgstr "Action"
 
 #: superset-frontend/src/components/Chart/ChartContextMenu/ChartContextMenu.tsx:152
 msgid "Cross-filter will be applied to all of the charts that use this dataset."
-msgstr "Le filtre va être appliqué à tous les graphiques qui utilise cet ensemble de données"
+msgstr ""
+"Le filtre va être appliqué à tous les graphiques qui utilise cet ensemble"
+" de données"
 
 #: superset-frontend/src/components/Chart/ChartContextMenu/ChartContextMenu.tsx:164
 #, fuzzy
@@ -10999,7 +11005,8 @@ msgid "One or more parameters needed to configure a database are missing."
 msgstr "Il manque un ou plusieurs paramètres de configuration de la base."
 
 #: superset/errors.py:133
-msgid "One or more parameters specified in the query are malformatted."
+#, fuzzy
+msgid "One or more parameters specified in the query are malformed."
 msgstr "Un ou plusieurs paramètres de la requête sont malformés."
 
 #: superset/errors.py:107
@@ -16022,7 +16029,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The number of results displayed is limited to %(rows)d by the "
-"configuration DISPLAY_MAX_ROW. Please add additional limits/filters or "
+"configuration DISPLAY_MAX_ROWS. Please add additional limits/filters or "
 "download to csv to see more rows up to the %(limit)d limit."
 msgstr ""
 
@@ -16801,8 +16808,9 @@ msgstr ""
 msgid ""
 "This chart applies cross-filters to charts whose datasets contain columns"
 " with the same name."
-msgstr "Ce graphique filtre automatiquement les graphiques ayant des colonnes de même nom dans leurs"
-" ensembles de données."
+msgstr ""
+"Ce graphique filtre automatiquement les graphiques ayant des colonnes de "
+"même nom dans leurs ensembles de données."
 
 #: superset-frontend/src/dashboard/actions/dashboardLayout.js:260
 msgid "This chart has been moved to a different filter scope."
@@ -20485,6 +20493,7 @@ msgid "median"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/PivotTableChart.tsx:62
+#: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:28
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:136
 #, fuzzy
 msgid "metric"
@@ -20984,11 +20993,6 @@ msgstr "année"
 msgid "zoom area"
 msgstr ""
 
-#: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:28
-#: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:136
-msgid "metric"
-msgstr "métrique"
-
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
 msgid "10 seconds"
 msgstr "10 secondes"
@@ -21004,3 +21008,4 @@ msgstr "12 heures"
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
 msgid "24 hours"
 msgstr "24 heures"
+

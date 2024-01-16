@@ -145,7 +145,7 @@ msgstr ""
 msgid " to visualize your data."
 msgstr "para visualizar seus dados."
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:116
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:117
 msgid "!= (Is not equal)"
 msgstr "!= (diferente)"
 
@@ -617,7 +617,6 @@ msgid "2 years ago"
 msgstr "2 anos atrás"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:97
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:49
 msgid "2/98 percentiles"
 msgstr "2/98 percentis"
 
@@ -665,7 +664,7 @@ msgstr "3 anos atrás"
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:191
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:459
 #: superset-frontend/src/explore/controlPanels/sections.tsx:187
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:131
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:132
 msgid "30 days"
 msgstr "30 dias"
 
@@ -744,7 +743,7 @@ msgstr "52 semanas iniciando Segunda-feira (freq=52S-SEG)"
 msgid "6 hour"
 msgstr "6 horas"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:135
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:136
 msgid "60 days"
 msgstr "60 dias"
 
@@ -766,11 +765,10 @@ msgid "7D"
 msgstr "7D"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:98
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:50
 msgid "9/91 percentiles"
 msgstr "9/91 percentis"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:139
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:140
 msgid "90 days"
 msgstr "90 dias"
 
@@ -778,11 +776,11 @@ msgstr "90 dias"
 msgid ":"
 msgstr ":"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:96
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:97
 msgid "< (Smaller than)"
 msgstr "< (menor que)"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:104
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:105
 msgid "<= (Smaller or equal)"
 msgstr "<= (menor ou equal)"
 
@@ -807,15 +805,15 @@ msgstr "<novo espacial>"
 msgid "<no type>"
 msgstr "<nenhum tipo>"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:112
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:113
 msgid "== (Is equal)"
 msgstr "== (É igual)"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:100
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:101
 msgid "> (Larger than)"
 msgstr "> (Maior que)"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:108
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:109
 msgid ">= (Larger or equal)"
 msgstr ">= (Maior ou equal)"
 
@@ -876,7 +874,7 @@ msgstr ""
 "deixar este campo vazio, permitirá a incorporação a partir de qualquer "
 "domínio."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:755
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:752
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:445
 msgid "A list of tags that have been applied to this chart."
 msgstr "Uma lista de tags que foram aplicadas a esse gráfico."
@@ -914,7 +912,7 @@ msgstr ""
 "de igual ângulo e o valor representado por qualquer cunha é ilustrado "
 "pela sua área, em vez do seu raio ou ângulo de varrimento."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:700
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:697
 msgid "A readable URL for your dashboard"
 msgstr "Uma URL legível para seu painel"
 
@@ -974,7 +972,7 @@ msgstr "Ocorreu um timeout durante a geração de um dataframe."
 msgid "A timeout occurred while taking a screenshot."
 msgstr "Ocorreu um tempo limite ao fazer uma captura de tela."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:299
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:296
 msgid "A valid color scheme is required"
 msgstr "Um esquema de cores válido é necessário"
 
@@ -1008,8 +1006,8 @@ msgstr "POSIÇÃO DO TÍTULO DO EIXO"
 msgid "About"
 msgstr "Sobre"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:479
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:522
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:476
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:519
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:411
 msgid "Access"
 msgstr "Acessar"
@@ -1054,7 +1052,7 @@ msgstr "Log de ação"
 msgid "Actions"
 msgstr "Ações"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:386
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:387
 #: superset-frontend/src/pages/AlertReportList/index.tsx:355
 msgid "Active"
 msgstr "Ativo"
@@ -1094,7 +1092,7 @@ msgstr "Formatação adaptável"
 msgid "Add"
 msgstr "Adicionar"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:381
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:382
 msgid "Add Alert"
 msgstr "Adicionar alerta"
 
@@ -1130,7 +1128,7 @@ msgstr "Adicionar Log"
 msgid "Add Metric"
 msgstr "Adicionar Métrica"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:380
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:381
 msgid "Add Report"
 msgstr "Adicionar relatório"
 
@@ -1267,7 +1265,7 @@ msgstr "Adicionar novo formatador de cores"
 msgid "Add new formatter"
 msgstr "Adicionar novo formatador"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:374
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:375
 msgid "Add notification method"
 msgstr "Adicionar método de notificação"
 
@@ -1372,7 +1370,7 @@ msgstr "Ajuste as configurações de desempenho desse banco de dados."
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:153
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Screengrid/controlPanel.ts:66
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:939
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:771
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:768
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:34
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1867
 msgid "Advanced"
@@ -1420,7 +1418,7 @@ msgstr "Tipo de dados avançado"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/index.ts:84
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/index.ts:75
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:70
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:130
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:129
 msgid "Advanced-Analytics"
 msgstr "Análise avançada"
 
@@ -1505,11 +1503,11 @@ msgstr "Alerta"
 msgid "Alert Triggered, In Grace Period"
 msgstr "Alerta Acionado, em período de carência"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:387
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:388
 msgid "Alert condition"
 msgstr "Condição de alerta"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:395
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:396
 msgid "Alert condition schedule"
 msgstr "Programação do estado de alerta"
 
@@ -1529,7 +1527,7 @@ msgstr "Alerta disparado durante o período de carência."
 msgid "Alert found an error while executing a query."
 msgstr "O alerta encontrou um erro durante a execução de uma consulta."
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:383
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:384
 msgid "Alert name"
 msgstr "Nome do alerta"
 
@@ -1626,7 +1624,7 @@ msgstr "Todos os Textos"
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterCard/ScopeRow.tsx:59
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterCard/useFilterScope.ts:60
 #: superset-frontend/src/dashboard/util/getFilterScopeNodesTree.js:85
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:128
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:127
 msgid "All charts"
 msgstr "Todos os gráficos"
 
@@ -1799,7 +1797,7 @@ msgstr ""
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:791
 #: superset-frontend/src/components/Datasource/DatasourceModal.tsx:183
 #: superset-frontend/src/components/Tags/utils.tsx:67
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:127
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:128
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/ColumnSelect.tsx:109
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DatasetSelect.tsx:38
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:92
@@ -2329,7 +2327,7 @@ msgstr "Anotações não foram excluídas."
 msgid "Any"
 msgstr "dia"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:729
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:726
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:393
 msgid "Any additional detail to show in the certification tooltip."
 msgstr ""
@@ -2390,7 +2388,7 @@ msgstr ""
 "que a consulta de origem satisfaz os períodos mínimos definidos na janela"
 " móvel."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:112
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:113
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/ActionButtons/index.tsx:142
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:856
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:231
@@ -2727,7 +2725,7 @@ msgstr "Com base no que as séries devem ser ordenadas no gráfico e na legenda"
 msgid "Basic"
 msgstr "Básico"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:682
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:679
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:353
 #: superset-frontend/src/features/annotationLayers/AnnotationLayerModal.tsx:247
 #: superset-frontend/src/features/annotations/AnnotationModal.tsx:287
@@ -2852,7 +2850,6 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/BoxPlot/index.js:26
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/index.ts:58
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/createMetadata.ts:27
 msgid "Box Plot"
 msgstr "Gráfico de caixa"
 
@@ -3147,7 +3144,7 @@ msgstr "Não pode haver sobreposição entre séries e avarias"
 #: superset-frontend/src/components/Modal/Modal.tsx:269
 #: superset-frontend/src/components/ReportModal/index.tsx:219
 #: superset-frontend/src/dashboard/components/FilterBoxMigrationModal.tsx:72
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:649
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:646
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:151
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/EditSection.tsx:136
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/Footer.tsx:76
@@ -3199,7 +3196,6 @@ msgstr "Não é possível analisar a string de tempo [%(human_readable)s ]"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/index.js:30
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:38
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:42
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/index.js:47
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:70
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:41
@@ -3218,7 +3214,7 @@ msgid "Categories to group by on the x-axis."
 msgstr "Categorias para grupo por sobre o eixo x."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/Scatter.jsx:46
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:678
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:677
 msgid "Category"
 msgstr "Categoria"
 
@@ -3292,7 +3288,7 @@ msgstr "Centro"
 msgid "Centroid (Longitude and Latitude): "
 msgstr "Centroide (Longitude e Latitude):"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:709
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:706
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:376
 msgid "Certification"
 msgstr "Certificação"
@@ -3301,7 +3297,7 @@ msgstr "Certificação"
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:348
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1235
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1241
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:723
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:720
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:387
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:390
 msgid "Certification details"
@@ -3320,7 +3316,7 @@ msgstr "Certificado Por"
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:337
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1222
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1230
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:714
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:711
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:378
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:379
 msgid "Certified by"
@@ -3420,7 +3416,7 @@ msgstr "Caractere para interpretar como ponto decimal."
 
 #: superset-frontend/src/components/Chart/DrillBy/useDisplayModeToggle.tsx:51
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:449
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:405
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:406
 #: superset-frontend/src/features/datasets/AddDataset/EditDataset/UsageTab/index.tsx:69
 #: superset-frontend/src/features/home/ChartTable.tsx:191
 #: superset-frontend/src/features/home/RightMenu.tsx:219
@@ -3459,16 +3455,13 @@ msgstr "ID do gráfico"
 #: superset-frontend/plugins/legacy-plugin-chart-sankey-loop/src/controlPanel.ts:36
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/controlPanel.ts:69
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:54
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/controlPanel.ts:43
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/controlPanel.ts:42
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:85
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/controlPanel.ts:78
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/controlPanel.ts:31
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/controlPanel.ts:44
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/controlPanel.ts:70
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:35
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/controlPanel.ts:49
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:54
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:41
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/controlPanel.ts:82
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:59
@@ -3487,7 +3480,6 @@ msgstr "ID do gráfico"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/controlPanel.tsx:61
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:61
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:61
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:31
 #: superset-frontend/src/explore/fixtures.tsx:34
 #: superset-frontend/src/explore/fixtures.tsx:77
 #: superset-frontend/src/explore/fixtures.tsx:86
@@ -3747,10 +3739,6 @@ msgstr "Escolha um banco de dados..."
 msgid "Choose a dataset"
 msgstr "Escolha um conjunto de dados"
 
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:69
-msgid "Choose a metric for left axis"
-msgstr "Escolha uma métrica para o eixo esquerdo"
-
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:183
 #: superset-frontend/src/explore/controls.jsx:216
 msgid "Choose a metric for right axis"
@@ -3780,14 +3768,6 @@ msgstr "Escolha o tipo de gráfico"
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:739
 msgid "Choose one of the available databases from the panel on the left."
 msgstr "Escolha um dos bancos de dados disponíveis no painel na esquerda."
-
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:100
-msgid "Choose one or more charts for left axis"
-msgstr "Escolha um ou mais gráficos para o eixo esquerdo"
-
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:135
-msgid "Choose one or more charts for right axis"
-msgstr "Escolha um ou mais gráficos para o eixo direito"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:812
 msgid "Choose the annotation layer type"
@@ -4071,7 +4051,7 @@ msgstr ""
 "determinada célula em relação às outras células no intervalo "
 "seleccionado:"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:500
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:497
 msgid "Colors"
 msgstr "Cores"
 
@@ -4366,7 +4346,6 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/index.js:36
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/index.js:38
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/index.js:48
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:37
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/index.ts:53
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/index.ts:43
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:72
@@ -4399,7 +4378,7 @@ msgstr "Compor várias camadas para formar imagens complexas."
 msgid "Compute the contribution to the total"
 msgstr "Calcular a contribuição para o total"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:391
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:392
 msgid "Condition"
 msgstr "Condição"
 
@@ -5002,7 +4981,7 @@ msgstr "Escuro Ciano"
 msgid "Dark mode"
 msgstr "Modo escuro"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:404
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:405
 #: superset-frontend/src/features/home/DashboardTable.tsx:194
 #: superset-frontend/src/features/home/RightMenu.tsx:228
 #: superset-frontend/src/pages/DashboardList/index.tsx:672
@@ -5043,11 +5022,11 @@ msgstr "Painel importado"
 msgid "Dashboard parameters are invalid."
 msgstr "Os parâmetros do painel são inválidos."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:639
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:636
 msgid "Dashboard properties"
 msgstr "Propriedades do painel"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:447
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:444
 msgid "Dashboard properties updated"
 msgstr "Propriedades do painel atualizadas"
 
@@ -5336,7 +5315,7 @@ msgstr "Banco de dados"
 msgid "Dataframe Index"
 msgstr "Índice do dataframe"
 
-#: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:267
+#: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:266
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DatasetSelect.tsx:81
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:878
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:907
@@ -6004,7 +5983,6 @@ msgid "Details of the certification"
 msgstr "Detalhes da certificação"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:91
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:43
 msgid "Determines how whiskers and outliers are calculated."
 msgstr "Determina como whiskers e outliers são calculados."
 
@@ -6148,7 +6126,6 @@ msgstr "Distribuir em"
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/index.js:28
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/index.js:26
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/index.ts:52
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/createMetadata.ts:25
 msgid "Distribution"
 msgstr "Distribuição"
 
@@ -6463,7 +6440,7 @@ msgstr "Pesquisar dinamicamente todos os valores de filtro"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/index.ts:73
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:42
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts:65
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:130
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:129
 msgid "ECharts"
 msgstr "ECharts"
 
@@ -6518,7 +6495,7 @@ msgstr "Largura da borda"
 msgid "Edit"
 msgstr "Editar"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:379
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:380
 msgid "Edit Alert"
 msgstr "Editar Alerta"
 
@@ -6571,7 +6548,7 @@ msgstr "Editar Métrica"
 msgid "Edit Plugin"
 msgstr "Editar Plugin"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:378
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:379
 msgid "Edit Report"
 msgstr "Editar relatório"
 
@@ -6935,8 +6912,8 @@ msgid "Equal to (=)"
 msgstr "Igual para (=)"
 
 #: superset-frontend/src/components/Datasource/DatasourceModal.tsx:182
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:139
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:298
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:140
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:295
 #: superset-frontend/src/explore/components/EmbedCodeContent.jsx:57
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:97
 #: superset-frontend/src/pages/AlertReportList/index.tsx:64
@@ -6974,8 +6951,6 @@ msgid "Error message"
 msgstr "Mensagem de erro"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/controlPanel.js:46
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:104
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:139
 msgid "Error while fetching charts"
 msgstr "Erro ao buscar gráficos"
 
@@ -7047,9 +7022,7 @@ msgstr "Todo"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:30
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:29
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/index.js:26
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/index.js:26
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/index.js:30
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:26
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/index.js:25
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/index.ts:62
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/index.ts:58
@@ -7074,7 +7047,7 @@ msgstr "Exato"
 msgid "Example"
 msgstr "Exemplo"
 
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:853
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:852
 #: superset-frontend/src/pages/Home/index.tsx:208
 msgid "Examples"
 msgstr "Exemplos"
@@ -7934,7 +7907,7 @@ msgstr "Ouro"
 msgid "Google Sheet Name and URL"
 msgstr "Planilha Google Nome e URL"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:402
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:403
 msgid "Grace period"
 msgstr "Período de inatividade"
 
@@ -8231,7 +8204,7 @@ msgstr ""
 "Se a tabela existir, efetuar uma das seguintes acções: Fail (não fazer "
 "nada), Replace (eliminar e recriar a tabela) ou Append (inserir dados)."
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:409
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:410
 msgid "Ignore cache when generating screenshot"
 msgstr "Ignorar o cache ao gerar a captura de tela"
 
@@ -8669,12 +8642,12 @@ msgstr "JSON"
 msgid "JSON Metadata"
 msgstr "Metadados JSON"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:776
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:773
 #: superset-frontend/src/features/annotations/AnnotationModal.tsx:336
 msgid "JSON metadata"
 msgstr "Metadados JSON"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:368
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:365
 msgid "JSON metadata is invalid!"
 msgstr "Os metadados JSON são inválidos!"
 
@@ -8961,14 +8934,9 @@ msgstr "Modificação mais recente"
 msgid "Left"
 msgstr "Esquerda"
 
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:72
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:166
 msgid "Left Axis Format"
 msgstr "Formato do eixo esquerdo"
-
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:68
-msgid "Left Axis Metric"
-msgstr "Eixo esquerdo métrico"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:97
 msgid "Left Axis chart(s)"
@@ -9006,16 +8974,13 @@ msgstr "Valor esquerdo"
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/index.js:34
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:40
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/index.js:33
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:43
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/index.js:39
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:47
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/index.js:37
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/index.js:33
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/index.js:34
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/index.js:50
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/index.js:33
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/index.js:45
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:35
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/index.js:29
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/index.ts:42
 #: superset-frontend/src/visualizations/FilterBox/FilterBoxChartPlugin.js:36
@@ -9136,7 +9101,6 @@ msgid "Line"
 msgstr "Linha"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/index.ts:80
-#: superset-frontend/plugins/preset-chart-xy/src/Line/createMetadata.ts:26
 msgid "Line Chart"
 msgstr "Gráfico de linhas"
 
@@ -9266,7 +9230,7 @@ msgstr "Localize o gráfico"
 msgid "Log Scale"
 msgstr "Escala Log"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:398
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:399
 msgid "Log retention"
 msgstr "Retenção de log"
 
@@ -9775,7 +9739,6 @@ msgid "Min periods"
 msgstr "Períodos mínimos"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:96
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:48
 msgid "Min/max (no outliers)"
 msgstr "Mín/máx (sem outliers)"
 
@@ -9865,7 +9828,7 @@ msgstr "Gráfico misto"
 msgid "Mixed Time-Series"
 msgstr "Séries Temporais Mistas"
 
-#: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:278
+#: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:277
 #: superset-frontend/src/pages/AlertReportList/index.tsx:335
 #: superset-frontend/src/pages/DashboardList/index.tsx:347
 #: superset-frontend/src/pages/DatasetList/index.tsx:375
@@ -9937,12 +9900,10 @@ msgstr "Multidimensões"
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/index.js:37
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/index.js:41
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/index.js:31
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:39
 msgid "Multi-Layers"
 msgstr "Múltiplas Camadas"
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/index.js:33
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:44
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/index.ts:49
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:43
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts:66
@@ -9950,7 +9911,6 @@ msgid "Multi-Levels"
 msgstr "Multiníveis"
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/index.js:42
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:34
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/index.ts:51
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/index.ts:86
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/index.ts:65
@@ -10303,7 +10263,7 @@ msgstr "Nenhuma tabela de banco de dados encontrada"
 msgid "No databases match your search"
 msgstr "Nenhum banco de dados corresponde a sua pesquisa"
 
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:846
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:845
 msgid "No description available."
 msgstr "Nenhuma descrição disponível."
 
@@ -10475,7 +10435,7 @@ msgstr "Tamanho do nó"
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:51
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/DashboardsSubMenu.tsx:138
 #: superset-frontend/src/explore/controlPanels/sections.tsx:134
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:127
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:128
 msgid "None"
 msgstr "Nenhum"
 
@@ -10523,7 +10483,7 @@ msgstr "Diferente de (≠)"
 msgid "Not in"
 msgstr "Não está em"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:120
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:121
 msgid "Not null"
 msgstr "Não nulo"
 
@@ -10540,7 +10500,7 @@ msgstr "Não atualizado"
 msgid "Nothing triggered"
 msgstr "Nada foi acionado"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:410
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:411
 #: superset-frontend/src/pages/AlertReportList/index.tsx:302
 msgid "Notification method"
 msgstr "Método de notificação"
@@ -10591,7 +10551,6 @@ msgstr ""
 #: superset-frontend/plugins/legacy-plugin-chart-country-map/src/controlPanel.ts:65
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:144
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:67
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/controlPanel.ts:67
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:68
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:137
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:276
@@ -10772,7 +10731,8 @@ msgstr ""
 " faltando."
 
 #: superset/errors.py:133
-msgid "One or more parameters specified in the query are malformatted."
+#, fuzzy
+msgid "One or more parameters specified in the query are malformed."
 msgstr "Um ou mais parâmetros especificados na consulta estão malformatados."
 
 #: superset/errors.py:107
@@ -11113,12 +11073,12 @@ msgstr "Proprietário"
 #: superset-frontend/src/dashboard/components/PropertiesModal/PropertiesModal.test.tsx:422
 #: superset-frontend/src/dashboard/components/PropertiesModal/PropertiesModal.test.tsx:441
 #: superset-frontend/src/dashboard/components/PropertiesModal/PropertiesModal.test.tsx:455
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:477
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:480
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:483
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:527
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:531
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:524
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:528
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:254
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:384
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:385
 #: superset-frontend/src/pages/AlertReportList/index.tsx:324
 #: superset-frontend/src/pages/DashboardList/index.tsx:369
 #: superset-frontend/src/pages/DatasetList/index.tsx:400
@@ -11136,8 +11096,8 @@ msgstr "Proprietários são inválidos"
 msgid "Owners is a list of users who can alter the dashboard."
 msgstr "Os proprietários são uma lista de usuários que podem alterar o painel."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:494
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:542
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:491
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:539
 msgid ""
 "Owners is a list of users who can alter the dashboard. Searchable by name"
 " or username."
@@ -11204,7 +11164,6 @@ msgstr "Analisar datas"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/index.js:26
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/index.js:26
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:29
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:55
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/index.ts:39
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:33
@@ -11294,7 +11253,6 @@ msgid "Percentage threshold"
 msgstr "Limiar da Porcentagem"
 
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:41
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:45
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:49
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:43
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/index.js:40
@@ -11332,7 +11290,7 @@ msgstr "Os períodos devem ser um número inteiro"
 msgid "Person or group that has certified this chart."
 msgstr "Pessoa ou grupo que certificou este gráfico."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:718
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:715
 msgid "Person or group that has certified this dashboard."
 msgstr "Pessoa ou grupo que certificou esse painel."
 
@@ -11475,7 +11433,7 @@ msgstr "Pixels"
 msgid "Plain"
 msgstr "Simples"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:795
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:792
 #, fuzzy
 msgid "Please DO NOT overwrite the \"filter_scopes\" key."
 msgstr "Por favor , NÃO sobrescreva a chave \"filter_scopes \"."
@@ -11698,7 +11656,7 @@ msgstr "Pop Tab Link"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Scatter/index.ts:89
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/index.ts:61
 #: superset-frontend/plugins/plugin-chart-table/src/index.ts:51
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:130
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:129
 msgid "Popular"
 msgstr "Popular"
 
@@ -11789,10 +11747,6 @@ msgstr "Preditivo"
 msgid "Predictive Analytics"
 msgstr "Análise preditiva"
 
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:64
-msgid "Prefix metric name with slice name"
-msgstr "Prefixo do nome da métrica com o nome da fatia"
-
 #: superset-frontend/src/dashboard/components/menu/MarkdownModeDropdown.tsx:39
 msgid "Preview"
 msgstr "Pré-visualização"
@@ -11882,7 +11836,6 @@ msgstr "Propagar"
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/index.js:30
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:42
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/index.js:33
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:46
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:50
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:44
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:75
@@ -11965,7 +11918,6 @@ msgstr "Consultas"
 #: superset-frontend/plugins/legacy-plugin-chart-sankey-loop/src/controlPanel.ts:26
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/controlPanel.ts:30
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:31
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/controlPanel.ts:31
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:32
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/controlPanel.js:63
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:44
@@ -11980,7 +11932,6 @@ msgstr "Consultas"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/controlPanel.ts:45
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/controlPanel.ts:26
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/controlPanel.ts:46
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:60
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:158
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:361
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:31
@@ -12171,7 +12122,6 @@ msgstr "Classificação"
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:143
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:335
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:217
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/controlPanel.ts:53
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:487
 #: superset-frontend/src/explore/controlPanels/sections.tsx:213
 msgid "Ratio"
@@ -12220,7 +12170,7 @@ msgstr "Recentes"
 msgid "Recipients are separated by \",\" or \";\""
 msgstr "Os destinatários são separados por \",\"ou \";\""
 
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:673
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:672
 msgid "Recommended tags"
 msgstr "Etiquetas recomendadas"
 
@@ -12500,11 +12450,11 @@ msgstr "Relatar um bug"
 msgid "Report failed"
 msgstr "Relatório falhou"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:382
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:383
 msgid "Report name"
 msgstr "Nome do relatório"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:394
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:395
 msgid "Report schedule"
 msgstr "Agendamento do relatório"
 
@@ -12677,10 +12627,6 @@ msgstr "Formato do eixo direito"
 msgid "Right Axis Metric"
 msgstr "Métrica do eixo direito"
 
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:132
-msgid "Right Axis chart(s)"
-msgstr "Gráfico(s) do eixo direito"
-
 #: superset-frontend/src/explore/controls.jsx:214
 msgid "Right axis metric"
 msgstr "Métrica do eixo direito"
@@ -12712,6 +12658,7 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/PropertiesModal.test.tsx:375
 #: superset-frontend/src/dashboard/components/PropertiesModal/PropertiesModal.test.tsx:389
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:545
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:548
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:551
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:406
@@ -12721,7 +12668,7 @@ msgstr ""
 msgid "Roles"
 msgstr "Funções"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:562
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:559
 msgid ""
 "Roles is a list which defines access to the dashboard. Granting a role "
 "access to a dashboard will bypass dataset level checks. If no roles are "
@@ -12977,7 +12924,7 @@ msgstr ""
 " eliminar a aba.\n"
 "Observe que terá de fechar outras janelas do SQL Lab antes de fazer isso."
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:389
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:390
 #: superset-frontend/src/features/home/SavedQueries.tsx:261
 msgid "SQL Query"
 msgstr "Consulta SQL"
@@ -13119,7 +13066,7 @@ msgstr "Sábado"
 #: superset-frontend/src/components/ReportModal/index.tsx:228
 #: superset-frontend/src/dashboard/components/Header/index.jsx:607
 #: superset-frontend/src/dashboard/components/Header/index.jsx:609
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:112
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:113
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:148
 #: superset-frontend/src/dashboard/components/SaveModal.tsx:211
 #: superset-frontend/src/dashboard/components/filterscope/FilterScopeSelector.jsx:794
@@ -13138,7 +13085,7 @@ msgstr "Sábado"
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:521
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricPopoverTrigger.tsx:250
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:347
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:376
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:377
 #: superset-frontend/src/features/annotationLayers/AnnotationLayerModal.tsx:230
 #: superset-frontend/src/features/annotations/AnnotationModal.tsx:272
 #: superset-frontend/src/features/cssTemplates/CssTemplateModal.tsx:218
@@ -13296,7 +13243,6 @@ msgid "Scatter"
 msgstr "Dispersão"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Scatter/index.ts:79
-#: superset-frontend/plugins/preset-chart-xy/src/ScatterPlot/createMetadata.ts:26
 msgid "Scatter Plot"
 msgstr "Gráfico de dispersão"
 
@@ -13328,7 +13274,7 @@ msgstr "Agendar relatório por e-mail"
 msgid "Schedule query"
 msgstr "Consulta de agendamento"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:397
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:398
 msgid "Schedule settings"
 msgstr "Configurações de agendamento"
 
@@ -13423,7 +13369,7 @@ msgstr "Pesquisa / Filtro"
 msgid "Search Metrics & Columns"
 msgstr "Pesquisar Métricas e Colunas"
 
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:779
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:778
 msgid "Search all charts"
 msgstr "Pesquisar todos os gráficos"
 
@@ -13627,8 +13573,6 @@ msgid "Select chart"
 msgstr "Selecionar gráficos"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/controlPanel.js:45
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:103
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:138
 msgid "Select charts"
 msgstr "Selecionar gráficos"
 
@@ -13777,15 +13721,15 @@ msgstr ""
 "Selecione os valores no(s) campo(s) destacado(s) no painel de controle. "
 "Em seguida, execute a consulta clicando no botão %s."
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:407
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:408
 msgid "Send as CSV"
 msgstr "Enviar como CSV"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:406
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:407
 msgid "Send as PNG"
 msgstr "Enviar como PNG"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:408
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:409
 msgid "Send as text"
 msgstr "Enviar como texto"
 
@@ -14252,18 +14196,6 @@ msgstr "Mostra uma lista de todas as séries disponíveis nesse ponto no tempo"
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:742
 msgid "Shows or hides markers for the time series"
 msgstr "Mostra ou esconde marcadores para a série temporal"
-
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:31
-msgid ""
-"Shows the composition of a dataset by segmenting a given rectangle as "
-"smaller rectangles with areas proportional to their value or contribution"
-" to the whole. Those rectangles may also, in turn, be further segmented "
-"hierarchically."
-msgstr ""
-"Mostra a composição de um conjunto de dados através da segmentação de um "
-"determinado retângulo em retângulos mais pequenos com áreas proporcionais"
-" ao seu valor ou contribuição para o todo. Estes retângulos podem também,"
-" por sua vez, ser segmentados hierarquicamente."
 
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/controlPanel.ts:64
 msgid "Significance Level"
@@ -15180,9 +15112,9 @@ msgid "Tagged Object could not be deleted."
 msgstr "O objeto marcado não pôde ser excluído."
 
 #: superset-frontend/src/components/MetadataBar/ContentConfig.tsx:126
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:736
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:733
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:430
-#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:683
+#: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:682
 #: superset-frontend/src/pages/ChartList/index.tsx:482
 #: superset-frontend/src/pages/ChartList/index.tsx:714
 #: superset-frontend/src/pages/DashboardList/index.tsx:394
@@ -15210,10 +15142,6 @@ msgstr "Alvo"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:92
 msgid "Target Color"
 msgstr "Cor do alvo"
-
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/controlPanel.ts:57
-msgid "Target aspect ratio for treemap tiles."
-msgstr "Alvo de aspecto pretendido para mosaicos de mapas de árvore."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:87
 msgid "Target category"
@@ -15404,7 +15332,7 @@ msgstr ""
 "O código de país padrão que o Superset deve esperar encontrar na coluna "
 "[country]"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:465
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:462
 msgid "The dashboard has been saved"
 msgstr "O painel foi salvo"
 
@@ -15689,10 +15617,10 @@ msgstr ""
 "Isto pode ser utilizado para mudar a hora UTC para a hora local."
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:301
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The number of results displayed is limited to %(rows)d by the "
-"configuration DISPLAY_MAX_ROW. Please add additional limits/filters or "
+"configuration DISPLAY_MAX_ROWS. Please add additional limits/filters or "
 "download to csv to see more rows up to the %(limit)d limit."
 msgstr ""
 "O número de resultados apresentados é limitado a %(rows)d pela "
@@ -16147,7 +16075,6 @@ msgstr "O nome de usuário fornecido ao se conectar ao banco de dados não é v�
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:226
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:127
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:68
 msgid "The way the ticks are laid out on the X-axis"
 msgstr "O modo como os ticks são dispostos no eixo X"
 
@@ -16409,7 +16336,7 @@ msgstr ""
 "exposto aqui para referência e para usuários avançados que queiram "
 "alterar parâmetros específicos."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:789
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:786
 #: superset/views/dashboard/mixin.py:58
 msgid ""
 "This JSON object is generated dynamically when clicking the save or "
@@ -16525,7 +16452,7 @@ msgstr ""
 "Este painel está sendo atualizado automaticamente no momento; a próxima "
 "atualização automática será em %s."
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:661
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:658
 msgid "This dashboard is managed externally, and can't be edited in Superset"
 msgstr "Esse painel é gerenciado externamente e não pode ser editado no Superset"
 
@@ -16760,7 +16687,7 @@ msgstr "Isso removerá sua configuração de incorporação atual."
 msgid "Threshold alpha level for determining significance"
 msgstr "Nível alfa de limiar para determinar a significância"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:393
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:394
 msgid "Threshold value should be double precision number"
 msgstr "O valor do limite deve ser um número de precisão dupla"
 
@@ -16780,7 +16707,6 @@ msgstr "Quinta"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:39
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/index.js:39
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/index.js:35
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:38
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/index.js:29
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/index.ts:87
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/index.ts:82
@@ -16959,7 +16885,7 @@ msgstr "Grão do tempo ausente"
 msgid "Time granularity"
 msgstr "Granularidade de tempo"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:400
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:401
 msgid "Time in seconds"
 msgstr "Tempo em segundos"
 
@@ -17144,7 +17070,7 @@ msgstr "Minúsculo"
 
 #: superset-frontend/src/components/DynamicEditableTitle/index.tsx:186
 #: superset-frontend/src/components/DynamicEditableTitle/index.tsx:207
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:687
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:684
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/DividerConfigForm.tsx:41
 #: superset-frontend/src/pages/DashboardList/index.tsx:308
 #: superset/views/dashboard/mixin.py:78 superset/views/dashboard/views.py:184
@@ -17207,6 +17133,11 @@ msgstr "Superior direito"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:140
 msgid "Top to Bottom"
 msgstr "De cima para baixo"
+
+#: superset/viz.py:1047
+#, fuzzy
+msgid "Total"
+msgstr "do total"
 
 #: superset/charts/post_processing.py:73
 #, python-format
@@ -17275,10 +17206,6 @@ msgstr "Orientação da árvore"
 msgid "Treemap"
 msgstr "Mapa da árvore"
 
-#: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:40
-msgid "Treemap (legacy)"
-msgstr "Mapa da árvore (legado)"
-
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/index.js:39
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/index.js:40
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:53
@@ -17295,7 +17222,7 @@ msgstr "Tendência"
 msgid "Triangle"
 msgstr "Triângulo"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:390
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:391
 msgid "Trigger Alert If..."
 msgstr "Alerta de acionamento se..."
 
@@ -17360,7 +17287,6 @@ msgid "Tuesday"
 msgstr "Terça"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:95
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:47
 msgid "Tukey"
 msgstr "Tukey (inglês)"
 
@@ -17430,7 +17356,7 @@ msgstr "Parâmetros de URL"
 msgid "URL parameters"
 msgstr "Parâmetros de URL"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:696
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:693
 msgid "URL slug"
 msgstr "Slug de URL"
 
@@ -17624,6 +17550,11 @@ msgstr "Erro desconhecido"
 msgid "Unknown input format"
 msgstr "Formato de entrada desconhecido"
 
+#: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:178
+#, fuzzy
+msgid "Unknown type"
+msgstr "ícone de tipo desconhecido"
+
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/utils/index.ts:43
 msgid "Unknown value"
 msgstr "Valor desconhecido"
@@ -17736,7 +17667,7 @@ msgstr "Carregar arquivo no banco de dados"
 msgid "Usage"
 msgstr "Uso"
 
-#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:802
+#: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:799
 #, python-format
 msgid "Use \"%(menuName)s\" menu instead."
 msgstr "Em vez disso, use o menu \"%(menuName)s\"."
@@ -17929,7 +17860,7 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx:117
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:100
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:318
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:392
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:393
 #: superset-frontend/src/pages/ExecutionLogList/index.tsx:143
 msgid "Value"
 msgstr "Valor"
@@ -18160,16 +18091,6 @@ msgstr ""
 " as séries podem ser visualizadas com um tipo de gráfico diferente (por "
 "exemplo, uma usando barras e outra usando uma linha)."
 
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:28
-msgid ""
-"Visualize two different time series using the same x-axis time range. "
-"This chart is being deprecated and we recommend using the Mixed "
-"Timeseries Chart instead!"
-msgstr ""
-"Visualize duas séries temporais diferentes usando o mesmo intervalo de "
-"tempo do eixo x. Esse gráfico está sendo descontinuado e, em vez disso, "
-"recomendamos o uso do gráfico de série temporal mista!"
-
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/index.ts:68
 msgid ""
 "Visualize two different time series using the same x-axis. Note that each"
@@ -18179,16 +18100,6 @@ msgstr ""
 "Visualize duas séries temporais diferentes usando o mesmo eixo x. Observe"
 " que cada série temporal pode ser visualizada de forma diferente (por "
 "exemplo, uma usando barras e outra usando uma linha)."
-
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/index.js:28
-msgid ""
-"Visualize two different time series using the same x-axis time range. "
-"This chart is being deprecated and we recommend using the Mixed "
-"Timeseries Chart instead!"
-msgstr ""
-"Visualize duas séries temporais diferentes usando o mesmo intervalo de "
-"tempo do eixo x. Esse gráfico está sendo descontinuado e, em vez disso, "
-"recomendamos o uso do gráfico de série temporal mista!"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/index.js:28
 msgid ""
@@ -18270,7 +18181,7 @@ msgstr ""
 msgid "Viz is missing a datasource"
 msgstr "O Viz não tem uma fonte de dados"
 
-#: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:265
+#: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:264
 msgid "Viz type"
 msgstr "Tipo de visualização"
 
@@ -18818,7 +18729,6 @@ msgid "Which relatives to highlight on hover"
 msgstr "Qual parentes para destaque sobre passe o mouse"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:89
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:41
 msgid "Whisker/outlier options"
 msgstr "Opções de Whisker/outlier"
 
@@ -18860,7 +18770,7 @@ msgstr "Rotação de palavras"
 msgid "Working"
 msgstr "Trabalhando"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:399
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:400
 msgid "Working timeout"
 msgstr "Tempo limite de trabalho"
 
@@ -18898,7 +18808,6 @@ msgstr "MARGEM INFERIOR DO TÍTULO DO EIXO X"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/controlPanel.ts:49
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/controlPanel.ts:98
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/controlPanel.ts:73
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:77
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/controlPanel.ts:91
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:314
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:182
@@ -18931,7 +18840,6 @@ msgstr "Escala X Log"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:216
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:116
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:58
 msgid "X Tick Layout"
 msgstr "X Tick Layout"
 
@@ -18991,14 +18899,6 @@ msgstr "POSIÇÃO DO TÍTULO DO EIXO Y"
 msgid "Y Axis"
 msgstr "Eixo Y"
 
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:40
-msgid "Y Axis 1"
-msgstr "Eixo Y 1"
-
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:50
-msgid "Y Axis 2"
-msgstr "Eixo Y 2"
-
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:274
 msgid "Y Axis 2 Bounds"
 msgstr "Eixo Y 2 Limites"
@@ -19021,14 +18921,6 @@ msgstr "Formato do eixo Y"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:353
 msgid "Y Axis Label"
 msgstr "Rótulo do Eixo Y"
-
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:88
-msgid "Y Axis Left"
-msgstr "Eixo Y Esquerdo"
-
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:123
-msgid "Y Axis Right"
-msgstr "Eixo Y Direito"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:70
 msgid "Y Axis Title"
@@ -19218,7 +19110,7 @@ msgstr ""
 "Você não pode excluir o último filtro temporal, pois ele é usado para "
 "filtros de intervalo de tempo em painéis."
 
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Vis.js:367
+#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Vis.js:365
 msgid "You cannot use 45° tick layout along with the time range filter"
 msgstr ""
 "Não é possível usar o layout de ticks de 45° junto com o filtro de "
@@ -19607,7 +19499,6 @@ msgstr "em"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:218
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:118
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:54
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:60
 msgid "auto"
 msgstr "automático"
 
@@ -20032,7 +19923,6 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:219
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:119
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:87
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:61
 msgid "flat"
 msgstr "plano"
 
@@ -20202,6 +20092,7 @@ msgid "median"
 msgstr "mediana"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/PivotTableChart.tsx:62
+#: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:28
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:136
 msgid "metric"
 msgstr "métrica"
@@ -20267,9 +20158,7 @@ msgstr "ícone de tipo numérico"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/index.js:33
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/index.js:36
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/index.js:55
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/index.js:33
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/index.js:45
-#: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:36
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/index.js:29
 msgid "nvd3"
 msgstr "nvd3"
@@ -20451,7 +20340,7 @@ msgstr "consultas salvas"
 msgid "search by tags"
 msgstr "pesquisa por tags"
 
-#: superset-frontend/src/features/alerts/AlertReportModal.tsx:401
+#: superset-frontend/src/features/alerts/AlertReportModal.tsx:402
 msgid "seconds"
 msgstr "segundos"
 
@@ -20480,7 +20369,6 @@ msgstr "pilha"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:221
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:122
-#: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:63
 msgid "staggered"
 msgstr "escalonado"
 
@@ -20663,3 +20551,24 @@ msgstr "ano"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts:521
 msgid "zoom area"
 msgstr "área de zoom"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "10 seconds"
+msgstr "30 segundos"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "6 hours"
+msgstr "6 horas"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "12 hours"
+msgstr "1 hora"
+
+#: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:29
+#, fuzzy
+msgid "24 hours"
+msgstr "6 horas"
+
