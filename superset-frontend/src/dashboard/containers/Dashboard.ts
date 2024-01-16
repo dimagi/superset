@@ -24,7 +24,7 @@ import {
   addSliceToDashboard,
   removeSliceFromDashboard,
 } from 'src/dashboard/actions/dashboardState';
-import { setDatasources } from 'src/datasource/actions';
+import { setDatasources } from 'src/dashboard/actions/datasources';
 
 import { triggerQuery } from 'src/components/Chart/chartAction';
 import { logEvent } from 'src/logger/actions';
@@ -39,7 +39,6 @@ function mapStateToProps(state: RootState) {
   const {
     datasources,
     sliceEntities,
-    charts,
     dataMask,
     dashboardInfo,
     dashboardState,
@@ -54,7 +53,6 @@ function mapStateToProps(state: RootState) {
     userId: dashboardInfo.userId,
     dashboardInfo,
     dashboardState,
-    charts,
     datasources,
     // filters prop: a map structure for all the active filter_box's values and scope in this dashboard,
     // for each filter field. map key is [chartId_column]
@@ -68,7 +66,7 @@ function mapStateToProps(state: RootState) {
         chartConfiguration: dashboardInfo.metadata?.chart_configuration,
         nativeFilters: nativeFilters.filters,
         dataMask,
-        layout: dashboardLayout.present,
+        allSliceIds: dashboardState.sliceIds,
       }),
     },
     chartConfiguration: dashboardInfo.metadata?.chart_configuration,

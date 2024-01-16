@@ -50,6 +50,7 @@ interface VizTypeGalleryProps {
   onDoubleClick: () => void;
   selectedViz: string | null;
   className?: string;
+  denyList: string[];
 }
 
 type VizEntry = {
@@ -89,10 +90,8 @@ const DEFAULT_ORDER = [
   'deck_arc',
   'heatmap',
   'deck_grid',
-  'dual_line',
   'deck_screengrid',
-  'line_multi',
-  'treemap',
+  'treemap_v2',
   'box_plot',
   'sunburst',
   'sankey',
@@ -102,6 +101,7 @@ const DEFAULT_ORDER = [
   'cal_heatmap',
   'rose',
   'bubble',
+  'bubble_v2',
   'deck_geojson',
   'horizon',
   'deck_multi',
@@ -225,7 +225,7 @@ const SelectorLabel = styled.button`
     }
 
     &.selected {
-      background-color: ${theme.colors.primary.dark1};
+      background-color: ${theme.colors.primary.base};
       color: ${theme.colors.primary.light5};
 
       svg {
@@ -506,6 +506,7 @@ export default function VizTypeGallery(props: VizTypeGalleryProps) {
   const chartMetadata: VizEntry[] = useMemo(() => {
     const result = Object.entries(mountedPluginMetadata)
       .map(([key, value]) => ({ key, value }))
+      .filter(({ key }) => !props.denyList.includes(key))
       .filter(
         ({ value }) =>
           nativeFilterGate(value.behaviors || []) && !value.deprecated,
@@ -848,11 +849,20 @@ export default function VizTypeGallery(props: VizTypeGalleryProps) {
                 grid-area: examples-header;
               `}
             >
-              {!!selectedVizMetadata?.exampleGallery?.length && t('Examples')}
+              {t('Examples')}
             </SectionTitle>
             <Examples>
-              {(selectedVizMetadata?.exampleGallery || []).map(example => (
+              {(selectedVizMetadata?.exampleGallery?.length
+                ? selectedVizMetadata.exampleGallery
+                : [
+                    {
+                      url: selectedVizMetadata?.thumbnail,
+                      caption: selectedVizMetadata?.name,
+                    },
+                  ]
+              ).map(example => (
                 <img
+                  key={example.url}
                   src={example.url}
                   alt={example.caption}
                   title={example.caption}

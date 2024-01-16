@@ -17,8 +17,7 @@
  * under the License.
  */
 
-import { Dashboard, EmbeddedDashboard } from 'src/dashboard/types';
-import { Dataset } from '@superset-ui/chart-controls';
+import { Dashboard, Datasource, EmbeddedDashboard } from 'src/dashboard/types';
 import { Chart } from 'src/types/Chart';
 import { useApiV1Resource, useTransformedResource } from './apiResources';
 
@@ -32,6 +31,7 @@ export const useDashboard = (idOrSlug: string | number) =>
         (dashboard.json_metadata && JSON.parse(dashboard.json_metadata)) || {},
       position_data:
         dashboard.position_json && JSON.parse(dashboard.position_json),
+      owners: dashboard.owners || [],
     }),
   );
 
@@ -43,7 +43,7 @@ export const useDashboardCharts = (idOrSlug: string | number) =>
 // important: this endpoint only returns the fields in the dataset
 // that are necessary for rendering the given dashboard
 export const useDashboardDatasets = (idOrSlug: string | number) =>
-  useApiV1Resource<Dataset[]>(`/api/v1/dashboard/${idOrSlug}/datasets`);
+  useApiV1Resource<Datasource[]>(`/api/v1/dashboard/${idOrSlug}/datasets`);
 
 export const useEmbeddedDashboard = (idOrSlug: string | number) =>
   useApiV1Resource<EmbeddedDashboard>(`/api/v1/dashboard/${idOrSlug}/embedded`);
