@@ -37,6 +37,10 @@
       "%(prefix)s %(title)s": [""],
       "%(rows)d rows returned": [""],
       "%(subtitle)s\nThis may be triggered by:\n %(issue)s": [""],
+      "%(suggestion)s instead of \"%(undefinedParameter)s?\"": [
+        "",
+        "%(firstSuggestions)s or %(lastSuggestion)s instead of \"%(undefinedParameter)s\"?"
+      ],
       "%(user)s was granted the role %(role)s that gives access to the %(datasource)s": [
         "Ao utilizador %(user)s foi concedido o cargo %(role)s que dá acesso ao %(datasource)s"
       ],
@@ -1109,6 +1113,7 @@
         "",
         "Deleted %(num)d report schedules"
       ],
+      "Deleted %(num)d rules": ["", "Deleted %(num)d rules"],
       "Deleted %(num)d saved query": ["", "Deleted %(num)d saved queries"],
       "Deleted: %s": ["Eliminar"],
       "Deleting a tab will remove all content within it. You may still reverse this action with the": [
@@ -2095,6 +2100,12 @@
       "Pick a granularity in the Time section or uncheck 'Include Time'": [
         "Escolha uma granularidade na secção Tempo ou desmarque 'Incluir hora'"
       ],
+      "Pick a metric for left axis!": [
+        "Selecione uma métrica para o eixo esquerdo!"
+      ],
+      "Pick a metric for right axis!": [
+        "Selecione uma métrica para o eixo direito!"
+      ],
       "Pick a metric for x, y and size": [
         "Selecione uma métrica para x, y e tamanho"
       ],
@@ -2151,6 +2162,10 @@
       ],
       "Please re-enter the password.": [""],
       "Please re-export your file and try importing again": [""],
+      "Please reach out to the Chart Owner for assistance.": [
+        "",
+        "Please reach out to the Chart Owners for assistance."
+      ],
       "Please save the query to enable sharing": [""],
       "Please save your chart first, then try creating a new email report.": [
         ""
@@ -2312,6 +2327,7 @@
       "Report Schedule parameters are invalid.": [""],
       "Report Schedule reached a working timeout.": [""],
       "Report Schedule state not found": [""],
+      "Report schedule": [""],
       "Report schedule system error": [""],
       "Report schedule unexpected error": [""],
       "Reports": ["Janela de exibição"],
@@ -3188,6 +3204,7 @@
       "This visualization type is not supported.": [
         "Escolha um tipo de visualização"
       ],
+      "This was triggered by:": ["", "This may be triggered by:"],
       "This will remove your current embed configuration.": [""],
       "Threshold alpha level for determining significance": [""],
       "Threshold value should be double precision number": [""],
@@ -3197,7 +3214,13 @@
       "Time Comparison": ["Coluna de tempo"],
       "Time Range": ["Granularidade Temporal"],
       "Time Series - Bar Chart": ["Série Temporal - Gráfico de barras"],
+      "Time Series - Dual Axis Line Chart": [
+        "Série Temporal - Gráfico de linha de dois eixos"
+      ],
       "Time Series - Line Chart": ["Série Temporal - Gráfico de linhas"],
+      "Time Series - Multiple Line Charts": [
+        "Série Temporal - Gráfico de linhas"
+      ],
       "Time Series - Nightingale Rose Chart": [
         "Série Temporal - Gráfico de linhas"
       ],
@@ -3520,6 +3543,14 @@
       "Week_ending Sunday": [""],
       "Weekly Report for %s": [""],
       "Weekly seasonality": [""],
+      "We’re having trouble loading these results. Queries are set to timeout after %s second.": [
+        "",
+        "We’re having trouble loading these results. Queries are set to timeout after %s seconds."
+      ],
+      "We’re having trouble loading this visualization. Queries are set to timeout after %s second.": [
+        "",
+        "We’re having trouble loading this visualization. Queries are set to timeout after %s seconds."
+      ],
       "What should be shown on the label?": [""],
       "When `Calculation type` is set to \"Percentage change\", the Y Axis Format is forced to `.1%`": [
         ""
