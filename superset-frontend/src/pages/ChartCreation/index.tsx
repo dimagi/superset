@@ -298,7 +298,7 @@ export class ChartCreation extends React.PureComponent<
           </TooltipContent>
         }
       >
-        <StyledLabel>{item.table_name}</StyledLabel>
+        <StyledLabel>{item.description}</StyledLabel>
       </Tooltip>
     );
   }
