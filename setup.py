@@ -52,8 +52,8 @@ with open(VERSION_INFO_FILE, "w") as version_file:
 
 
 setup(
-    name="apache-superset",
-    description="A modern, enterprise-ready business intelligence web application",
+    name="dimagi-superset",
+    description="A 'Dimagi' fork of apache-superset, a modern, enterprise-ready business intelligence web application",
     long_description=long_description,
     long_description_content_type="text/markdown",
     version=version_string,
@@ -192,8 +192,7 @@ setup(
     python_requires="~=3.9",
     author="Apache Software Foundation",
     author_email="dev@superset.apache.org",
-    url="https://superset.apache.org/",
-    download_url="https://www.apache.org/dist/superset/" + version_string,
+    url="https://github.com/dimagi/superset",
     classifiers=[
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
