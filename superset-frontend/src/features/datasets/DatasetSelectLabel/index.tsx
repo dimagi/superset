@@ -27,6 +27,7 @@ type Database = {
 export type Dataset = {
   id: number;
   table_name: string;
+  description?: string;
   datasource_type?: string;
   schema: string;
   database: Database;
@@ -105,17 +106,23 @@ export const DatasetSelectLabel = (item: Dataset) => (
             ? item.table_name
             : t('Not defined')}
         </div>
-        <div className="tooltip-description">
-          <div>
-            {t('Database')}: {item.database.database_name}
+        {item.description ? (
+          <div className="tooltip-description">
+            <div className="tooltip-description">{item.description}</div>
           </div>
-          <div>
-            {t('Schema')}:{' '}
-            {item.schema && isValidValue(item.schema)
-              ? item.schema
-              : t('Not defined')}
+        ) : (
+          <div className="tooltip-description">
+            <div>
+              {t('Database')}: {item.database.database_name}
+            </div>
+            <div>
+              {t('Schema')}:{' '}
+              {item.schema && isValidValue(item.schema)
+                ? item.schema
+                : t('Not defined')}
+            </div>
           </div>
-        </div>
+        )}
       </TooltipContent>
     }
   >
