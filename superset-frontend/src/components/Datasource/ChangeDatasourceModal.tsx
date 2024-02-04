@@ -201,6 +201,10 @@ const ChangeDatasourceModal: FunctionComponent<ChangeDatasourceModalProps> = ({
 
   const columns = [
     {
+      Header: t('Description'),
+      accessor: 'description',
+    },
+    {
       Cell: ({ row: { original } }: any) => (
         <StyledSpan
           role="button"
